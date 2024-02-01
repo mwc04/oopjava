@@ -1,3 +1,4 @@
+package lap2.src;
 import java.util.Scanner;
 
 public class bai5 {

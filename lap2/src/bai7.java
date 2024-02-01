@@ -1,4 +1,4 @@
-package lab2.src;
+package lap2.src;
 
 public class bai7 {
     
