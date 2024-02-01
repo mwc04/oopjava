@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class sosanhhaiso {
+public class slide35 {
  public static void main(String[] args) {
     int a, b ;
     Scanner sc =new Scanner(System.in);
