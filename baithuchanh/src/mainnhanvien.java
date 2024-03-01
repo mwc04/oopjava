@@ -1,4 +1,4 @@
-public class App {
+public class mainnhanvien {
     public static void main(String[] args) throws Exception {
         NhanVien nhanvien = new NhanVien();
         System.out.println("nhan vien : ");
