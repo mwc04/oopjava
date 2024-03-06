@@ -1,3 +1,4 @@
+package Person;
 public class mainnhanvien {
     public static void main(String[] args) throws Exception {
         NhanVien nhanvien = new NhanVien();

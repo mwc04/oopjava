@@ -1,3 +1,4 @@
+package chuong3;
 public class mainChuong3Slide28 {
     public static void main(String[] args) throws Exception {
         Chuong3Slide28 A = new Chuong3Slide28();

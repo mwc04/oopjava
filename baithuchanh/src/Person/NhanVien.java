@@ -1,3 +1,4 @@
+package Person;
 import java.util.Scanner;
 
 public class NhanVien {
@@ -33,7 +34,7 @@ public class NhanVien {
 
     public float tinhLuongNhanVien () {
     if(songaydilam > 28) {
-        luong = tienluong * songaydilam - baohiem + tienluong;
+        luong = tienluong * songaydilam - baohiem + tienthuong;
     }else {
         luong = tienluong * songaydilam - baohiem;
     }

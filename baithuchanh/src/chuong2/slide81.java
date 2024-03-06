@@ -1,3 +1,4 @@
+package chuong2;
 import java.util.Scanner;
 public class slide81 {
     public static void main(String[] args) {

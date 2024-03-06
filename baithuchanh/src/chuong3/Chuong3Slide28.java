@@ -1,3 +1,4 @@
+package chuong3;
 import java.util.Scanner;
 
 public class Chuong3Slide28 {

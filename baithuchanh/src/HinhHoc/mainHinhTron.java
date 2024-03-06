@@ -1,3 +1,4 @@
+package HinhHoc;
 public class mainHinhTron {
     public static void main(String[] args) throws Exception {
         HinhTron ht = new HinhTron();
