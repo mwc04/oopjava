@@ -1,8 +1,8 @@
 package HinhHoc;
 public class mainHinhTron {
     public static void main(String[] args) throws Exception {
-        HinhTron ht = new HinhTron();
-        HinhTron ht2 = new HinhTron();
+        hinhtron ht = new hinhtron();
+        hinhtron ht2 = new hinhtron();
         System.out.print("hinh tron thu 1\n");
         ht.nhapGiaTri();  
         ht.tinhChuVi();

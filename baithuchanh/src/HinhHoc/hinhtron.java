@@ -1,7 +1,7 @@
 package HinhHoc;
 import java.util.Scanner;
 
-public class HinhTron {
+public class hinhtron {
     float chuvi;
     float dientich;
     float bankinh;
