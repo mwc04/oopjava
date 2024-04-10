@@ -10,7 +10,6 @@ public class MainKeThuaPerson {
         //Employer
         Employer e = new Employer();
         e.nhapGiaTriEmployer();
-        // e.tinhLuongNhanVien();
         e.inGiaTriEmployer();
     
         // Fulltime
