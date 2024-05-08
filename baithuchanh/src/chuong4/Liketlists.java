@@ -22,5 +22,13 @@ public class Liketlists {
             System.out.println("<------ham duoc in ra la ----->");
             linkedlistPerson.get(i).inThongTin();
         }
+
+        //xoa thong tin
+        linkedlistPerson.remove(0);
+
+        for(int i = 0; i < linkedlistPerson.size();i++){
+            System.out.println("<------ham duoc in ra la ----->");
+            linkedlistPerson.get(i).inThongTin();
+        }
     }
 }
