@@ -5,5 +5,9 @@ public class mainInterface {
         dog d = new dog();
         d.eat();
         d.run();
+
+        fish ca = new fish();
+        ca.run();
+        ca.eat();
     }
 }

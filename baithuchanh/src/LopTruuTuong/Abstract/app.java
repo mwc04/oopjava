@@ -5,5 +5,9 @@ public class app {
         Animal animal = new cat();
         animal.eat();
         animal.run();
+
+        Animal dv = new elephant();
+        dv.run();
+        dv.eat();
     }
 }
