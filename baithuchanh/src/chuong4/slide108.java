@@ -1,0 +1,29 @@
+package chuong4;
+
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class slide108 {
+    public static void main(String[] args) {
+        TreeMap<Integer, Double> treeMap = new TreeMap<>();
+
+        treeMap.put(1,9d);
+        treeMap.put(1,19.1d);
+        treeMap.put(1,7.2d);
+        treeMap.put(1,20.28d);
+
+        System.out.println("cac phan tu co trong treeMap: ");
+        Set<Map.Entry<Integer, Double>> setTreeMap = treeMap.entrySet();
+        System.out.println(setTreeMap);
+
+
+        treeMap.replace(4, 20.11d);
+
+        treeMap.replace(2, 7.2d, 7.7d);
+
+        System.out.println("Cac phan tu co trong treeMap sau khi thay the: ");
+        setTreeMap = treeMap.entrySet();
+        System.out.println(setTreeMap);
+    }
+}

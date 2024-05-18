@@ -1,4 +1,5 @@
-package lab2.src;
+package Chuong2;
+
 import java.util.Scanner;
 
 public class bai5 {
