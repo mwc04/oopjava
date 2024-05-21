@@ -3,12 +3,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class SinhVien {
+public class bai5 {
     private String maSV;
     private String hoTen;
     private String lop;
 
-    public SinhVien(String maSV, String hoTen, String lop) {
+    public bai5(String maSV, String hoTen, String lop) {
         this.maSV = maSV;
         this.hoTen = hoTen;
         this.lop = lop;
@@ -40,7 +40,7 @@ public class SinhVien {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Map<String, SinhVien> danhSachSinhVien = new HashMap<>();
+        Map<String, bai5> danhSachSinhVien = new HashMap<>();
 
         System.out.print("Nhập số lượng sinh viên: ");
         int n = scanner.nextInt();
@@ -56,13 +56,13 @@ public class SinhVien {
             System.out.print("Lớp: ");
             String lop = scanner.nextLine();
 
-            SinhVien sv = new SinhVien(maSV, hoTen, lop);
+            bai5 sv = new bai5(maSV, hoTen, lop);
             danhSachSinhVien.put(maSV, sv);
         }
 
         // Hiển thị danh sách sinh viên
         System.out.println("\nDanh sách sinh viên:");
-        for (Map.Entry<String, SinhVien> entry : danhSachSinhVien.entrySet()) {
+        for (Map.Entry<String, bai5> entry : danhSachSinhVien.entrySet()) {
             System.out.println("Mã SV: " + entry.getKey() + ", Họ tên: " + entry.getValue().getHoTen() + ", Lớp: " + entry.getValue().getLop());
         }
         System.out.print("\nNhập tên lớp cần hiển thị sinh viên: ");
@@ -70,7 +70,7 @@ public class SinhVien {
 
         // Hiển thị sinh viên thuộc lớp đã nhập
         System.out.println("\nNhững sinh viên thuộc lớp " + lopCanHienThi + ":");
-        for (Map.Entry<String, SinhVien> entry : danhSachSinhVien.entrySet()) {
+        for (Map.Entry<String, bai5> entry : danhSachSinhVien.entrySet()) {
             if (entry.getValue().getLop().equalsIgnoreCase(lopCanHienThi)) {
                 System.out.println("Mã SV: " + entry.getKey() + ", Họ tên: " + entry.getValue().getHoTen() + ", Lớp: " + entry.getValue().getLop());
             }
@@ -81,7 +81,7 @@ public class SinhVien {
      String maSVCanTim = scanner.nextLine();
 
      // Hiển thị thông tin sinh viên tương ứng với mã sinh viên đã nhập
-     SinhVien svCanTim = danhSachSinhVien.get(maSVCanTim);
+     bai5 svCanTim = danhSachSinhVien.get(maSVCanTim);
      if (svCanTim != null) {
          System.out.println("\nThông tin sinh viên có mã " + maSVCanTim + ":");
          System.out.println("Họ tên: " + svCanTim.getHoTen());
