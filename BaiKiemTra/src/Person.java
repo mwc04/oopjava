@@ -19,4 +19,11 @@ public class Person {
         System.out.println("Tuoi cua ban la : " + Age);
         System.out.println("Luong cua ban la : " + Luong);
     }
+
+    public static void main(String[] args) {
+        Person ps = new Person();
+        ps.nhapThongTin();
+        ps.inThongTin();
+
+    }
 }
