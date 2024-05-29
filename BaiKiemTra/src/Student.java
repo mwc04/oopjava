@@ -7,13 +7,13 @@ public class Student extends Person {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap ma sinh vien : ");
         MaSV = sc.nextLine();
-        nhapThongTin();
+        super.nhapThongTin();
     }
 
     @Override
     public void inThongTin(){
         System.out.println("Ma sinh vien la : " + MaSV);
-        inThongTin();
+        super.inThongTin();
     }
     public static void main(String[] args) {
         Student hs = new Student();

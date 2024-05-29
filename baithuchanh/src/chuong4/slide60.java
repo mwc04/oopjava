@@ -20,7 +20,7 @@ public class slide60 {
                 System.out.println(str);
             }
 
-// them cac phan tu 
+        // them cac phan tu 
             System.out.println("nhap phan tu can them : ");
             Name = sc.nextLine();
             if(!linkSetString .contains(Name)){

@@ -25,7 +25,7 @@ public interface Arraylistes {
         // }
 
         //xoa thong tin
-            Arraylist.remove(0);
+            // Arraylist.remove(0);
 
             for(int i = 0; i < Arraylist.size();i++){
                 System.out.println("<------ham duoc in ra la ----->");

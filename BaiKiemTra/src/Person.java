@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Person {
@@ -19,6 +20,14 @@ public class Person {
         System.out.println("Tuoi cua ban la : " + Age);
         System.out.println("Luong cua ban la : " + Luong);
     }
+
+    public void themThongTin (ArrayList<Person> a, int n)  {
+        for (int i =0 ; i < n ; i++) {
+            System.out.println("nhap vao n phan tu can them ");
+        }
+    }
+
+    
 
     public static void main(String[] args) {
         Person ps = new Person();

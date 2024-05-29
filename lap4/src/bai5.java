@@ -1,4 +1,4 @@
-package Chuong4;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -12,7 +12,7 @@ public class bai5 {
         this.maSV = maSV;
         this.hoTen = hoTen;
         this.lop = lop;
-    }
+    }   
 
     public String getMaSV() {
         return maSV;
